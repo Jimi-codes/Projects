@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3 {
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+#nav i {
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 4px 10px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+#nav h1 {
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button {
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-size: 10px;
+    font-weight: 900;
+}
+#btn2 {
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+#gamer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    font-weight: 40;
+    font-size: 130px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 380px;
+    width: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2 {
+    transform: translate(-50%, -50%) rotate(-25deg);
+}
+#img3 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img4 {
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+#img5 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#btm-left {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+#btm-right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+#btm-right i {
+    margin: 0 10px;
+}
